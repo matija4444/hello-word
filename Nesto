@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Novak Matija - Vježba 2</title>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Matija Novak" />
+		<meta name="date" content="14.03.2014" />
+		<link href="matnovak.css" 
+			  rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="zaglavlje">
+			<a href="http://www.imdb.com/name/nm0000216/
+			?ref_=nv_sr_1">
+				Arnold Schwarzenegger
+			</a>
+		</div>
+		<div id="navigacija">
+			<a href="index.html" class="veza" >
+				Početna
+			</a>
+			<br/>
+			<a href="registracija.html" class="veza" >
+				Dodaj novog glumca
+			</a>
+			<br/>
+			<a href="popis_glumaca.html" class="veza" >
+				Popis glumaca
+			</a>
+			<br/>
+			<a href="okviri.html" class="veza" target="_new" >
+				Okviri
+			</a>
+		</div>
+		<div id="sadrzaj">
+			<table border="1" style="text-align: right;">
+				<caption>Popis glumaca</caption>
+				<thead>
+					<tr>
+						<th>Rd. BR.</th>
+						<th>Ime</th>
+						<th>Prezime</th>
+						<th>Spol</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td colspan="2">Matija Novak</td>
+						<td>M</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Jurica</td>
+						<td>Ševa</td>
+						<td>M</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Dragutin</td>
+						<td>Kermek</td>
+						<td>M</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="podnozje">
+			Matija Novak kontaktirajte me na 
+			<a href="mailto:matnovak@foi.hr">
+				matnovak@foi.hr
+			</a>
+		</div>
+	</body>
+</html>
